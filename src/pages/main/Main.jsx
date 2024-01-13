@@ -1,11 +1,12 @@
 import React from "react";
 import "./Main.scss";
+import PageWrapper from "../../components/base/PageWrapper";
 
 const Main = () => {
   return (
-    <div>
+    <PageWrapper>
       <div className="page">메인</div>
-    </div>
+    </PageWrapper>
   );
 };
 
