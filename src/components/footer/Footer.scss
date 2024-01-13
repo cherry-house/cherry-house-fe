@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  height: 182px;
+  width: 100%;
+  background-color: #ebd7dc;
+}
+
+.footerBox {
+  padding: 50px 70px 50px 70px;
+}
+
+.footerTitle {
+  @include font-style(550, 20px, 24px);
+  color: $color-text-bright;
+}
+
+.footerDocs {
+  @include font-style(200, 13px, 16px);
+  color: $color-text-bright;
+  width: 291px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
