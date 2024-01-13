@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  position: fixed;
+  height: 12vh;
+  width: 100%;
+  border-bottom: 1px solid #eee7e7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 200;
+  background-color: white;
+}
+
+.navbarMain {
+  align-items: start;
+  width: 320px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.navbarSide {
+  max-width: var(--content-width);
+  margin-right: 50px;
+  align-items: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchBar {
+  @include font-style(600, 15px, 18px);
+  color: $color-text-bright;
+  width: 250px;
+  height: 36px;
+  border: 3px solid $color-box;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+
+  & > .search {
+    margin-top: 3px;
+  }
+}
+
+.navbarUser {
+  font-size: 16px;
+  color: $color-title;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

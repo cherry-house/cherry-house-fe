@@ -1,0 +1,26 @@
+$color-title: #4f3e3e;
+$color-text-bright: #d79f9f;
+$color-text-highlight: #e33769;
+$color-box: #eee7e7;
+$color-card: #faf7f7;
+
+$font-family: "Pretendard", Arial, Helvetica, sans-serif;
+
+@mixin font-style($weight, $size, $line) {
+  font-family: $font-family;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line;
+}
+
+@mixin title-1 {
+  @include font-style(600, 24px, 29px);
+}
+
+@mixin title-2 {
+  @include font-style(300, 14px, 17px);
+}
+
+@mixin card-title {
+  @include font-style(400, 16px, 19px);
+}
