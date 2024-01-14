@@ -10,10 +10,13 @@ const Header = () => {
         <HeaderLogo />
       </Link>
       <div className="navbarSide">
-        <div className="searchBar">
-          <SearchIcon style={{ height: "20px", width: "20px" }} />
-          <span className="search">검색</span>
-        </div>
+        <button className="button" onClick={() => {}}>
+          <div className="searchBar">
+            <SearchIcon style={{ height: "20px", width: "20px" }} />
+            <span className="search">검색</span>
+          </div>
+        </button>
+
         <Link to="/join" style={{ textDecoration: "none" }}>
           <div className="navbarUser">Join</div>
         </Link>
