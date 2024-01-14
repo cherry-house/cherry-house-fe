@@ -29,6 +29,19 @@
   justify-content: space-between;
 }
 
+.button {
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  background-color: white;
+  margin-right: 15px;
+  border-radius: 25px;
+  border-style: none;
+  :hover {
+    cursor: pointer;
+  }
+}
+
 .searchBar {
   @include font-style(600, 15px, 18px);
   color: $color-text-bright;
@@ -39,8 +52,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;
 
+  :hover {
+    cursor: pointer;
+  }
   & > .search {
     margin-top: 3px;
   }
