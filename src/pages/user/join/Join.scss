@@ -1,4 +1,96 @@
+@import "../../../styles/variables.scss";
+
 .join {
-  margin-top: 850px;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 69px 0 69px 0;
+  height: 100%;
+}
+
+.join_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.join_title_main {
+  @include title-1;
+}
+
+.join_title_sub {
+  @include title-2;
+  color: $color-text-bright;
+  text-align: center;
+  & > span {
+    color: $color-text-highlight;
+  }
+}
+
+.join_form_n_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 282px;
+}
+
+.join_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+  height: 180px;
+}
+
+.join_error {
+  @include font-style(300, 10px, 12px);
+  color: $color-text-highlight;
+  text-align: center;
+}
+
+.button_n_input {
+  @include font-style(300, 12px, 14px);
+  width: 307px;
+  height: 35px;
+  border-radius: 12px;
+  border: 2px solid $color-box;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 13px;
+  &:focus {
+    outline: none;
+    border-color: $color-text-bright;
+  }
+  &.send_button {
+    @include title-2;
+    width: 326px;
+    height: 44px;
+    font-weight: 600;
+    background-color: $color-text-bright;
+    border: none;
+    color: white;
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+::placeholder {
+  color: $color-text-bright;
+  border: none;
 }

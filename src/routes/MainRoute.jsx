@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "../pages/main/Main";
 import Join from "../pages/user/join/Join";
 import Login from "../pages/user/login/Login";
+import Password from "../pages/user/password/Password";
 
 const MainRoute = () => {
   return (

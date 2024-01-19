@@ -1,6 +1,6 @@
 @import "../../../styles/variables.scss";
 
-.box {
+.cardBox {
   width: 925px;
   height: 135px;
   margin: 26px;
@@ -23,14 +23,14 @@
   margin-right: 25px;
 }
 
-.text {
+.cardText {
   @include font-style(400, 10px, 12px);
   display: flex;
   flex-direction: column;
   height: 68px;
 }
 
-.title {
+.cardTitle {
   @include card-title;
   color: $color-title;
   margin-bottom: 5px;
