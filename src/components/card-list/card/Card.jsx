@@ -6,11 +6,11 @@ import { ReactComponent as MapIcon } from "../../../images/map_icon.svg";
 const Card = () => {
   return (
     <div>
-      <div className="box">
+      <div className="cardBox">
         <p className="profileTitle">
           <Profile className="profile" />
-          <div className="text">
-            <span className="title">부산 헤어 모델 구해요 ♥</span>
+          <div className="cardText">
+            <span className="cardTitle">부산 헤어 모델 구해요 ♥</span>
             <span className="hashtags">
               # 헤어모델 #무료헤어모델 #얼굴공개 #서면미용실{" "}
             </span>
