@@ -2,13 +2,14 @@ import React from "react";
 import { ReactComponent as Cherry } from "../../images/cherry.svg";
 import { ReactComponent as Pencil } from "../../images/pencil.svg";
 import "./FloatingButton.scss";
+import { Link } from "react-router-dom";
 
 const FloatingButton = () => {
   return (
     <div>
-      <button className="writeButton">
+      <Link to="/write" className="writeButton">
         <Pencil />
-      </button>
+      </Link>
       <button className="floatingButton">
         <Cherry />
       </button>

@@ -1,0 +1,122 @@
+@import "../../styles/variables.scss";
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  height: 155px;
+  width: 100%;
+  border-bottom: 1px solid $color-border;
+  padding: 30px 150px;
+  box-sizing: border-box;
+}
+
+.title_left {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category_date {
+  @include text-1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.category {
+  color: $color-text-highlight;
+  margin-right: 14px;
+}
+
+.date {
+  color: $color-text-bright;
+}
+
+.title_text {
+  @include title-3;
+  color: $color-title;
+}
+
+.writer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.writer_image {
+  width: 35px;
+  height: 35px;
+}
+
+.writer_name {
+  @include card-title;
+  color: $color-title;
+  margin-left: 10px;
+}
+
+.writer_address {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: $color-title;
+}
+
+.writer_address_detail {
+  @include text-1;
+  color: $color-text-highlight;
+}
+
+.writer_address_basic {
+  @include font-style(400, 12px, 15px);
+  margin-top: 5px;
+}
+
+.contents {
+  @include font-style(400, 13px, 16px);
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  text-align: center;
+  align-items: start;
+  box-sizing: border-box;
+  padding: 30px 150px;
+  justify-content: space-between;
+}
+
+.content_main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 17px;
+}
+
+.image {
+  margin-right: 13px;
+}
+
+.hashtags {
+  @include font-style(400, 13px, 16px);
+  color: $color-text-bright;
+  margin-bottom: 39px;
+}
+
+.text {
+  @include card-title;
+  color: $color-title;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+}
