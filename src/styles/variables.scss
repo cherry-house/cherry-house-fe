@@ -22,6 +22,14 @@ $font-family: "Pretendard", Arial, Helvetica, sans-serif;
   @include font-style(300, 14px, 17px);
 }
 
+@mixin title-3 {
+  @include font-style(600, 20px, 24px);
+}
+
 @mixin card-title {
   @include font-style(400, 16px, 19px);
+}
+
+@mixin text-1 {
+  @include font-style(400, 11px, 13px);
 }

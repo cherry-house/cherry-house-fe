@@ -3,6 +3,7 @@ import Main from "../pages/main/Main";
 import Join from "../pages/user/join/Join";
 import Login from "../pages/user/login/Login";
 import Password from "../pages/user/password/Password";
+import PostRegister from "../pages/post/PostRegister";
 
 const MainRoute = () => {
   return (
@@ -11,7 +12,8 @@ const MainRoute = () => {
         <Route path="/" element={<Main />} />
         <Route path="/join" element={<Join />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/*" element={<span>Not Found</span>} />
+        <Route path="/password" element={<Password />} />
+        <Route path="/write" element={<PostRegister />} />
       </Routes>
     </>
   );
