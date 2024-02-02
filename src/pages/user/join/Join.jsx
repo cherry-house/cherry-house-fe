@@ -43,13 +43,19 @@ const JoinView = () => {
               onChange={handleInputName}
               value={name}
             />
-            <input
-              className="button_n_input"
-              type="text"
-              placeholder="이메일"
-              onChange={handleInputEmail}
-              value={email}
-            />
+            <div className="email_authorize">
+              <input
+                className="email_input"
+                type="text"
+                placeholder="이메일"
+                onChange={handleInputEmail}
+                value={email}
+              />
+              <button className="authorize_button" onClick={null}>
+                이메일 인증
+              </button>
+            </div>
+
             <input
               className="button_n_input"
               type="text"

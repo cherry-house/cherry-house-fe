@@ -49,13 +49,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   justify-content: space-between;
   height: 180px;
 }
 
 .join_error {
-  @include font-style(300, 10px, 12px);
+  @include text-1;
   color: $color-text-highlight;
   text-align: center;
 }
@@ -83,10 +82,57 @@
     background-color: $color-text-bright;
     border: none;
     color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
     &:hover {
       cursor: pointer;
     }
+  }
+}
+
+.email_authorize {
+  display: flex;
+  flex-direction: row;
+  width: 326px;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  &:focus {
+    outline: none;
+    border-color: $color-text-bright;
+  }
+}
+
+.email_input {
+  @include font-style(300, 12px, 14px);
+  width: 202px;
+  height: 35px;
+  border-radius: 12px;
+  border: 2px solid $color-box;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 13px;
+  &:focus {
+    outline: none;
+    border-color: $color-text-bright;
+  }
+}
+
+.authorize_button {
+  @include text-1;
+  color: $color-text-bright;
+  font-weight: 600;
+  width: 98px;
+  height: 40px;
+  text-align: center;
+  border: 3px solid $color-text-bright;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 12px;
+  &:hover {
+    cursor: pointer;
   }
 }
 
