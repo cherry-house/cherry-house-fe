@@ -69,7 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-<img width="1710" alt="스크린샷 2025-01-10 오후 8 57 41" src="https://github.com/user-attachments/assets/75b61a45-056d-4425-b98d-52ca327f33e9" />
-<img width="1710" alt="스크린샷 2025-01-10 오후 8 57 26" src="https://github.com/user-attachments/assets/6e24e639-f226-4d3e-b9e2-6572305197dc" />
-<img width="1709" alt="스크린샷 2025-01-10 오후 8 57 14" src="https://github.com/user-attachments/assets/eec31da2-2d56-4459-a26a-f147fd056f35" />
-
+<img width="1710" alt="스크린샷 2025-01-10 오후 6 41 29" src="https://github.com/user-attachments/assets/f4ead944-91ed-426a-ad85-2a9475522900" />
+<img width="1710" alt="스크린샷 2025-01-10 오후 6 39 57" src="https://github.com/user-attachments/assets/92f9eda0-b615-4f05-b6d7-b01ba2fbfb62" />
+<img width="1710" alt="스크린샷 2025-01-10 오후 6 41 08" src="https://github.com/user-attachments/assets/afb0f378-c9d7-4c9d-bcb3-4bdd3b639674" />
+<img width="1710" alt="스크린샷 2025-01-10 오후 6 40 51" src="https://github.com/user-attachments/assets/f64729be-5f17-455c-a7aa-79bc75df5303" />
+<img width="1706" alt="스크린샷 2025-01-10 오후 6 40 33" src="https://github.com/user-attachments/assets/7b64e165-38f2-4663-8730-54c11af53ce4" />
